@@ -1,0 +1,134 @@
+
+body,
+html {
+   font-family: 'Roboto-Regular';
+}
+
+.st_lang
+{
+    margin-left: 15px;
+}
+.t_lang .tl_anc .la_flag
+{
+    margin-right: 6px;
+}
+.t_lang .tl_anc > i
+{
+    margin-left: 3px;
+}
+.changed
+{
+    left: 0;
+}
+.search_icon
+{
+    right: 28px;
+}
+.aboutus_desc .about_title,.gal .gal_tit,.rev_title,.newsl_cont .newb_tit
+{
+    font-family: 'Roboto-Black'; 
+}
+.aboutus_desc .about_txt,.foo_txt,.fast_links > ul > li > a
+{
+    font-family: 'Roboto-Light';
+}
+.cust_reviews .rev_cont:after
+{
+    right: 10px;
+}
+.rev_cont .cust_img
+{
+    margin-right: 15px;
+}
+.rev_cont .cu_commt
+{
+    margin-left: 67px;
+}
+.rev_cont .cu_name,footer .ff_title
+{
+    font-family: 'Roboto-Bold';
+}
+.cust_reviews .rev_cont:after
+{
+    direction: rtl;
+    -webkit-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+.mail_cont .ffmail_input,.mail_cont .fm_check,.fopayco .p_right
+{
+    font-family: 'Roboto-Medium';
+}
+.mail_cont .fm_check
+{
+    right: 0;
+}
+
+
+
+
+
+@media (min-width:992px) and (max-width:1199px)	
+{
+
+}
+
+@media (max-width:991px)	
+{
+    footer .fast_links .fsm_title:before
+    {
+        right: 20px;
+    }
+    .newsl_cont .newsub_tit
+    {
+        font-family: 'Roboto-Medium';
+    }
+}
+
+@media (min-width:768px) and (max-width:991px)	
+{
+
+}
+
+
+
+
+
+@media (max-width:767px)	
+{
+    .h_recomend > li
+    {
+        margin-left: 14px;
+        margin-right: 0;
+    }
+    .main_nav
+    {
+        left: 0;
+    }
+    .closebtn
+    {
+        right: 20px;
+    }
+            .nav_bar .sam_menu
+    {
+        margin-left: 20px;
+    }
+    .nav_bar .sam_menu > li > a
+    {
+        text-align: left;
+    }
+    header .nav_bar .dir_anc:after
+    {
+        right: 24px;
+    }
+    .st_lang.sm
+    {
+        left: 20px;
+        margin-left: 0;
+    }
+    .rev_cont .cu_commt
+    {
+        margin-left: 0;
+    }
+}

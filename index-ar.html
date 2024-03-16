@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="ar">
+	<head>
+		<meta charset="utf-8">
+		<!-- for internet explorere -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--(the most important line) for mobile first -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <link rel="icon" type="image/png" href="images/favicon.png">
+		<title>Itent</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-rtl.min.css">
+		<link rel="stylesheet" href="css/swiper-bundle.css">
+		<link rel="stylesheet" href="css/all.min.css">
+		<link rel="stylesheet" href="css/linear.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/style-ar.css">
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>-->
+		<script src="js/html5shiv.min.js"></script>
+		<script src="js/respond.min.js"></script>
+        <script src="js/jquery-2.2.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/swiper-bundle.js"></script>
+		<script src="js/plug.js"></script>
+	</head>
+	<body>
+         <!-- Start preloader -->
+        <div class="pre-loader">
+          <div class="content"><img src="images/logo.png" alt="logo" />
+              <div class="progress-bar"><span class="bar"><span class="progress"></span></span></div>
+          </div>
+        </div>
+         <!-- End preloader -->
+         <div class="over_click"></div>
+         <!-- Start header -->
+         <header>
+             <div class="top_nav">
+                 <div class="container">
+                     <div class="top_bar">
+                         <div class="logo">
+                            <a href="#"><img class="img-responsive" src="images/logo.png" alt="logo"></a>
+                         </div>
+                         
+                         <div class="main_nav">
+                           <span href="#" class="lnr lnr-cross closebtn"></span>
+                           <div class="st_lang sm">
+                                 <div class="t_lang dropdown">
+                                      <a class="dropdown-toggle tl_anc fixanc" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                        <span class="la_flag">
+                                            <img class="i_lang" src="images/ar.png" alt="language">
+                                        </span> العربية
+                                        <i class="fas fa-chevron-down"></i>
+                                      </a>
+                                      <ul class="dropdown-menu sam_menu ulfix">
+                                       <li>
+                                            <a href="index.html" class="fixanc">English</a>
+                                        </li>
+                                        <li>
+                                            <a href="index-ar.html" class="fixanc">العربية</a>
+                                        </li>
+                                      </ul>
+                                  </div> 
+                             </div>
+                            <ul class="nav_bar list-unstyled list-inline ulfix">
+                                <li><a class="fixanc" href="#">الرئيسية</a></li>
+                                <li><a class="fixanc" href="#">وصل حديثا</a></li>
+                                <li class="dropdown samdrop_li">
+                                    <a class="dropdown-toggle dir_anc fixanc" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">المنتجات</a>
+                                    <ul class="dropdown-menu ulfix sam_menu">
+                                        <li>
+                                            <a class="sub fixanc" href="#">خيمة سقف</a>
+                                        </li>
+                                        <li>
+                                            <a class="sub fixanc" href="#">المظلة</a>
+                                        </li>
+                                        <li>
+                                            <a class="sub fixanc" href="#">العارضة </a>
+                                        </li>
+                                        <li>
+                                            <a class="sub fixanc" href="#">اكسسوارات</a>
+                                        </li>
+                                        <li>
+                                            <a class="sub fixanc" href="#">قطع غيار</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a class="fixanc" href="#">من نحن</a></li>
+                                <li><a class="fixanc" href="#">اتصل بنا</a></li>
+                            </ul>
+                          </div>
+                          
+                          <div class="side_cont">
+                             <ul class="list-unstyled list-inline ulfix h_recomend">
+                                 <li class="srch">
+                                    <a role="button" class="re_btn fixanc" data-toggle="modal" data-target=".over_mod">
+                                           <i class="fas fa-search"></i>
+                                    </a>
+                                 </li>
+                                 <li class="my_account lg dropdown">
+                                     <a class="re_btn dropdown-toggle fixanc" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                        <span class="hre_icon"><i class="fa fa-user"></i></span>
+                                    </a>
+                                    <ul class="dropdown-menu ulfix sam_menu">
+                                        <li>
+                                            <a href="#" class="fixanc">تسجيل الدخول</a>
+                                        </li>
+                                        <li><a href="#" class="fixanc">تسجيل جديد</a></li>
+                                    </ul>
+                                 </li>
+                                 <li class="cart">
+                                    <a class="re_btn fixanc" href="#">
+                                        <i class="fa fa-shopping-cart"></i>
+                                    </a>
+                                 </li>
+                                 <li class="mob_navbtn">
+                                    <a id="navbtn" class="re_btn fixanc">
+                                        <i class="fas fa-bars"></i>
+                                    </a>
+                                </li>
+                             </ul>
+                             <div class="st_lang lg">
+                                 <div class="t_lang dropdown">
+                                      <a class="dropdown-toggle tl_anc fixanc" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                        <span class="la_flag">
+                                            <img class="i_lang" src="images/ar.png" alt="language">
+                                        </span> العربية
+                                        <i class="fas fa-chevron-down"></i>
+                                      </a>
+                                      <ul class="dropdown-menu sam_menu ulfix">
+                                       <li>
+                                            <a href="index.html" class="fixanc">English</a>
+                                        </li>
+                                        <li>
+                                            <a href="index-ar.html" class="fixanc">العربية</a>
+                                        </li>
+                                      </ul>
+                                  </div> 
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+        </header>
+         <!-- end header -->
+        
+             <!--------------- start search modal ---------------->
+            <div class="modal fade over_mod" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" class="lnr lnr-cross"></span>
+                </button>
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="search_cont sm">
+                             <div class="search_box">
+                                <input class="searchinput" id="search" placeholder=" البحث ..." type="search">
+                                <span class="changed"></span>
+                                <button class="search_icon"type="submit"><i class="fas fa-search"></i></button>
+                             </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+            <!--------------- end search modal ---------------->
+            
+           <!-- Start Main Slider -->
+          <div class="main_slider_sec">
+                <div class="main_slider">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <a href="#" class="main-slide">
+                              <img src="images/slider.jpg" class="img-fluid">
+                            </a>
+                          </div>
+                          <div class="swiper-slide">
+                            <a href="#" class="main-slide">
+                              <img src="images/slider.jpg" class="img-fluid">
+                            </a>
+                          </div>
+                          <div class="swiper-slide">
+                            <a href="#" class="main-slide">
+                              <img src="images/slider.jpg" class="img-fluid">
+                            </a>
+                          </div>
+                        </div>
+                  </div>
+                </div>
+          </div>
+          <!-- end Main Slider -->
+          
+          
+          <!-- start about -->
+          <div class="about_us">
+              <div class="container">
+                  <div class="aboutus_cont">
+                      <img class="back_1" src="images/back1.png" />
+                      <div class="aboutus_desc">
+                          <h3 class="hhfix about_title">مرحبًا بك في iTent</h3>
+                          <p class="hhfix about_txt">
+                                                      هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام
+
+                          </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          <!-- end about -->
+          
+          
+          <!-- start Gallery -->
+          
+          <div class="galleries">
+             <div class="group group_1">
+                 <div class="gal">
+                      <a href="#" class="gal_img">
+                          <img src="images/c2.jpg" class="img-responsive" />
+                      </a>
+                      <a href="#" class="gal_tit fixanc">المظلة</a>
+                  </div>
+                  <div class="gal">
+                      <a href="#" class="gal_img">
+                          <img src="images/c1.jpg" class="img-responsive" />
+                      </a>
+                      <a href="#" class="gal_tit fixanc">خيمة سقف</a>
+                  </div>
+             </div>
+             <div class="group group_2">
+                 <div class="gal">
+                      <a href="#" class="gal_img">
+                          <img src="images/c4.jpg" class="img-responsive" />
+                      </a>
+                      <a href="#" class="gal_tit fixanc">اكسسوارات</a>
+                  </div>
+                  <div class="gal">
+                      <a href="#" class="gal_img">
+                          <img src="images/c3.jpg" class="img-responsive" />
+                      </a>
+                      <a href="#" class="gal_tit fixanc">العارضة</a>
+                  </div>
+             </div>
+             <div class="group group_3">
+                 <div class="gal">
+                      <a href="#" class="gal_img">
+                          <img src="images/c5.jpg" class="img-responsive" />
+                      </a>
+                      <a href="#" class="gal_tit fixanc">قطع غيار</a>
+                  </div>
+             </div>
+          </div>
+          <!-- end Gallery -->
+          
+          
+                  <!-- start Customer reviews-->
+        
+        <div class="cust_reviews">
+            <div class="container">
+               <h3 class="rev_title hhfix">آراء العملاء</h3>
+               <div class="reviews_slider sam_slider">
+                     <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="rev_cont">
+                                   <ul class="list-unstyled list-inline ulfix curev_cont">
+                                        <li class="cust_img">
+                                            <a role="button">
+                                                <img src="images/test.png" class="img-responsive">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a role="button" class="cu_name fixanc">Ibrahim Salah</a>
+                                        </li>
+                                    </ul>   
+                                    <p class="cu_commt hhfix">
+                                        هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="rev_cont">
+                                   <ul class="list-unstyled list-inline ulfix curev_cont">
+                                        <li class="cust_img">
+                                            <a role="button">
+                                                <img src="images/test.png" class="img-responsive">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a role="button" class="cu_name fixanc">Ibrahim Salah</a>
+                                        </li>
+                                    </ul>   
+                                    <p class="cu_commt hhfix">
+                                        هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                         </div>
+                   </div>
+                   <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- end Customer reviews-->
+
+       <!-- start footer -->
+       <footer>
+           <!-- start newsletter -->
+            <div class="container">
+                <div class="our_newsletter">
+                    <div class="newsl_cont">
+                        <div class="newsl_title">
+                            <h3 class="newb_tit hhfix">النشرة البريدية</h3>
+                            <h5 class="newsub_tit hhfix">
+                                اشترك في النشرة الإخبارية لدينا واحصل على أحدث المنتجات والعروض        
+                           </h5>
+                        </div>
+                        <div class="form-group mail_cont">
+                            <input type="email" class="form-control ffmail_input" id="exampleInputEmail1" placeholder=" Enter your email address ">
+                            <button class="fm_check">ارسال</button>
+                        </div>
+                    </div>
+                </div>
+           
+           <!-- end newsletter -->
+           
+               <div class="foot_cont">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="foo_desc lg">
+                                <div class="logo">
+                                    <a href="#"><img class="img-responsive" src="images/foot-logo.png" alt="logo"></a>
+                                </div>
+                                <p class="hhfix foo_txt">
+                                                      هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام
+                                </p>
+                               <ul class="foo_social list-unstyled list-inline ulfix">
+                                   <li><a href="#" class="fixanc"><i class="fab fa-facebook-f"></i></a></li>
+                                   <li><a href="#" class="fixanc"><i class="fab fa-twitter"></i></a></li>
+                                   <li><a href="#" class="fixanc"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="#" class="fixanc"><i class="fab fa-whatsapp"></i></a></li>
+                                    <li><a href="#" class="fixanc"><i class="fab fa-snapchat-ghost"></i></a></li>
+                               </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="fast_links">
+                                <h5 class="ff_title fsm_title hhfix" data-toggle="collapse" data-target="#id10" aria-expanded="false">معلومات</h5>
+                                <ul class="list-unstyled collapse ulfix fast_ul" id="id10">
+                                    <li><a class="fixanc" href="#"> من نحن </a></li>
+                                    <li><a class="fixanc" href="#">الشحن والتوصيل</a></li>
+                                    <li><a class="fixanc" href="#">الخصوصية</a></li>
+                                    <li><a class="fixanc" href="#">الشروط والأحكام</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="fast_links">
+                                <h5 class="ff_title fsm_title hhfix" data-toggle="collapse" data-target="#id12" aria-expanded="false">خدمة العملاء</h5>
+                                <ul class="list-unstyled collapse ulfix fast_ul" id="id12">
+                                    <li><a class="fixanc" href="#">اتصل بنا</a></li>
+                                    <li><a class="fixanc" href="#">ارجاع الطلب</a></li>
+                                    <li><a class="fixanc" href="#">خريطة الموقع</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                         <div class="col-md-2">
+                            <div class="fast_links">
+                                <h5 class="ff_title fsm_title hhfix" data-toggle="collapse" data-target="#id11" aria-expanded="false">اضافات</h5>
+                                <ul class="list-unstyled collapse ulfix" id="id11">
+                                    <li><a class="fixanc" href="#">الشركات</a></li>
+                                    <li><a class="fixanc" href="#">قسائم الهدايا</a></li>
+                                    <li><a class="fixanc" href="#">نظام العمولة</a></li>
+                                    <li><a class="fixanc" href="#">العروض المميزة</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="fast_links">
+                                <h5 class="ff_title fsm_title hhfix" data-toggle="collapse" data-target="#id9" aria-expanded="false">حسابي</h5>
+                                <ul class="list-unstyled collapse ulfix" id="id9">
+                                    <li><a class="fixanc" href="#">حسابي</a></li>
+                                    <li><a class="fixanc" href="#">طلباتي</a></li>
+                                    <li><a class="fixanc" href="#">قائمة رغباتي</a></li>
+                                    <li><a class="fixanc" href="#">القائمة البريدية</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                   </div>
+                   <div class="foo_desc sm">
+                       <ul class="foo_social list-unstyled list-inline ulfix">
+                           <li><a href="#" class="fixanc"><i class="fab fa-facebook-f"></i></a></li>
+                           <li><a href="#" class="fixanc"><i class="fab fa-twitter"></i></a></li>
+                           <li><a href="#" class="fixanc"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#" class="fixanc"><i class="fab fa-whatsapp"></i></a></li>
+                            <li><a href="#" class="fixanc"><i class="fab fa-snapchat-ghost"></i></a></li>
+                       </ul>
+                    </div>
+               </div>
+           </div>
+           <div class="fopayco">
+             <div class="container">
+                <div class="fopa_cont">
+                 <p class="hhfix p_right">© متجر ايتينت - صنع ب <i class="fas fa-heart"></i>  من <a href="#"><img src="images/tasawk-c-en.png"></a></p>
+                   <div class="ff_pay">
+                        <img src="images/pay.png" class="img-responsive">
+                    </div>
+                </div>
+             </div>
+           </div>
+        </footer>
+            
+       <!-- end footer -->
+        
+    </body>
+</html>

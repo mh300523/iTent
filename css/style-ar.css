@@ -1,0 +1,126 @@
+
+body,
+html {
+   font-family: 'Tajawal';
+}
+
+.st_lang
+{
+    margin-right: 15px;
+}
+.t_lang .tl_anc .la_flag
+{
+    margin-left: 6px;
+}
+.t_lang .tl_anc > i
+{
+    margin-right: 3px;
+}
+.changed
+{
+    right: 0;
+}
+.search_icon
+{
+    left: 28px;
+}
+.aboutus_desc .about_title,.gal .gal_tit,.rev_title,.newsl_cont .newb_tit
+{
+    font-family: 'Tajawal-Black';
+}
+.aboutus_desc .about_txt,.foo_txt,.fast_links > ul > li > a
+{
+    font-family: 'Tajawal-Light';
+}
+.cust_reviews .rev_cont:after
+{
+    left: 10px;
+}
+.rev_cont .cust_img
+{
+    margin-left: 15px;
+}
+.rev_cont .cu_commt
+{
+    margin-right: 67px;
+}
+.rev_cont .cu_name,footer .ff_title
+{
+    font-family: 'Tajawal-Bold';
+}
+.mail_cont .ffmail_input,.mail_cont .fm_check,.fopayco .p_left
+{
+    font-family: 'Tajawal-Medium';
+}
+.mail_cont .fm_check
+{
+    left: 0;
+}
+
+
+
+
+
+@media (min-width:992px) and (max-width:1199px)	
+{
+
+}
+
+@media (max-width:991px)	
+{
+    footer .fast_links .fsm_title:before
+    {
+        left: 20px;
+    }
+    .newsl_cont .newsub_tit
+    {
+        font-family: 'Tajawal-Medium';
+    }
+}
+
+@media (min-width:768px) and (max-width:991px)	
+{
+
+}
+
+
+
+
+
+@media (max-width:767px)	
+{
+    .h_recomend > li
+    {
+        margin-right: 14px;
+        margin-left: 0;
+    }
+    .main_nav
+    {
+        right: 0;
+    }
+    .closebtn
+    {
+        left: 20px;
+    }
+    .nav_bar .sam_menu
+    {
+        margin-right: 20px;
+    }
+    .nav_bar .sam_menu > li > a
+    {
+        text-align: right;
+    }
+    header .nav_bar .dir_anc:after
+    {
+        left: 24px;
+    }
+    .st_lang.sm
+    {
+        right: 20px;
+        margin-right: 0;
+    }
+    .rev_cont .cu_commt
+    {
+        margin-right: 0;
+    }
+}

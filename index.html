@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<!-- for internet explorere -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!--(the most important line) for mobile first -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <link rel="icon" type="image/png" href="images/favicon.png">
+		<title>Itent</title>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/swiper-bundle.css">
+		<link rel="stylesheet" href="css/all.min.css">
+		<link rel="stylesheet" href="css/linear.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/style-en.css">
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>-->
+		<script src="js/html5shiv.min.js"></script>
+		<script src="js/respond.min.js"></script>
+        <script src="js/jquery-2.2.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/swiper-bundle.js"></script>
+		<script src="js/plug.js"></script>
+	</head>
+	<body>
+         <!-- Start preloader -->
+        <div class="pre-loader">
+          <div class="content"><img src="images/logo.png" alt="logo" />
+              <div class="progress-bar"><span class="bar"><span class="progress"></span></span></div>
+          </div>
+        </div>
+         <!-- End preloader -->
+         <div class="over_click"></div>
+         <!-- Start header -->
+         <header>
+             <div class="top_nav">
+                 <div class="container">
+                     <div class="top_bar">
+                         <div class="logo">
+                            <a href="#"><img class="img-responsive" src="images/logo.png" alt="logo"></a>
+                         </div>
+                         
+                         <div class="main_nav">
+                           <span href="#" class="lnr lnr-cross closebtn"></span>
+                           <div class="st_lang sm">
+                                 <div class="t_lang dropdown">
+                                      <a class="dropdown-toggle tl_anc fixanc" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                        <span class="la_flag">
+                                            <img class="i_lang" src="images/lang-en.png" alt="language">
+                                        </span> English
+                                        <i class="fas fa-chevron-down"></i>
+                                      </a>
+                                      <ul class="dropdown-menu sam_menu ulfix">
+                                       <li>
+                                            <a href="index.html" class="fixanc">English</a>
+                                        </li>
+                                        <li>
+                                            <a href="index-ar.html" class="fixanc">العربية</a>
+                                        </li>
+                                      </ul>
+                                  </div> 
+                             </div>
+                            <ul class="nav_bar list-unstyled list-inline ulfix">
+                                <li><a class="fixanc" href="#">Home</a></li>
+                                <li><a class="fixanc" href="#">New Arrivals</a></li>
+                                <li class="dropdown samdrop_li">
+                                    <a class="dropdown-toggle dir_anc fixanc" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products</a>
+                                    <ul class="dropdown-menu ulfix sam_menu">
+                                        <li>
+                                            <a class="sub fixanc" href="#">Roof Tent</a>
+                                        </li>
+                                        <li>
+                                            <a class="sub fixanc" href="#">Awning</a>
+                                        </li>
+                                        <li>
+                                            <a class="sub fixanc" href="#">Crossbar </a>
+                                        </li>
+                                        <li>
+                                            <a class="sub fixanc" href="#">Accessories</a>
+                                        </li>
+                                        <li>
+                                            <a class="sub fixanc" href="#">Spareparts</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a class="fixanc" href="#">About Us</a></li>
+                                <li><a class="fixanc" href="#">Contact Us</a></li>
+                            </ul>
+                          </div>
+                          
+                          <div class="side_cont">
+                             <ul class="list-unstyled list-inline ulfix h_recomend">
+                                 <li class="srch">
+                                    <a role="button" class="re_btn fixanc" data-toggle="modal" data-target=".over_mod">
+                                           <i class="fas fa-search"></i>
+                                    </a>
+                                 </li>
+                                 <li class="my_account lg dropdown">
+                                     <a class="re_btn dropdown-toggle fixanc" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                        <span class="hre_icon"><i class="fa fa-user"></i></span>
+                                    </a>
+                                    <ul class="dropdown-menu ulfix sam_menu">
+                                        <li>
+                                            <a href="#" class="fixanc">Log In</a>
+                                        </li>
+                                        <li><a href="#" class="fixanc">Rigister</a></li>
+                                    </ul>
+                                 </li>
+                                 <li class="cart">
+                                    <a class="re_btn fixanc" href="#">
+                                        <i class="fa fa-shopping-cart"></i>
+                                    </a>
+                                 </li>
+                                 <li class="mob_navbtn">
+                                    <a id="navbtn" class="re_btn fixanc">
+                                        <i class="fas fa-bars"></i>
+                                    </a>
+                                </li>
+                             </ul>
+                             <div class="st_lang lg">
+                                 <div class="t_lang dropdown">
+                                      <a class="dropdown-toggle tl_anc fixanc" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                        <span class="la_flag">
+                                            <img class="i_lang" src="images/lang-en.png" alt="language">
+                                        </span> English
+                                        <i class="fas fa-chevron-down"></i>
+                                      </a>
+                                      <ul class="dropdown-menu sam_menu ulfix">
+                                       <li>
+                                            <a href="index.html" class="fixanc">English</a>
+                                        </li>
+                                        <li>
+                                            <a href="index-ar.html" class="fixanc">العربية</a>
+                                        </li>
+                                      </ul>
+                                  </div> 
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+        </header>
+         <!-- end header -->
+        
+             <!--------------- start search modal ---------------->
+            <div class="modal fade over_mod" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" class="lnr lnr-cross"></span>
+                </button>
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="search_cont sm">
+                             <div class="search_box">
+                                <input class="searchinput" id="search" placeholder="Search ..." type="search">
+                                <span class="changed"></span>
+                                <button class="search_icon"type="submit"><i class="fas fa-search"></i></button>
+                             </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+            <!--------------- end search modal ---------------->
+            
+           <!-- Start Main Slider -->
+          <div class="main_slider_sec">
+                <div class="main_slider">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <a href="#" class="main-slide">
+                              <img src="images/slider.jpg" class="img-fluid">
+                            </a>
+                          </div>
+                          <div class="swiper-slide">
+                            <a href="#" class="main-slide">
+                              <img src="images/slider.jpg" class="img-fluid">
+                            </a>
+                          </div>
+                          <div class="swiper-slide">
+                            <a href="#" class="main-slide">
+                              <img src="images/slider.jpg" class="img-fluid">
+                            </a>
+                          </div>
+                        </div>
+                  </div>
+                </div>
+          </div>
+          <!-- end Main Slider -->
+          
+          
+          <!-- start about -->
+          <div class="about_us">
+              <div class="container">
+                  <div class="aboutus_cont">
+                      <img class="back_1" src="images/back1.png" />
+                      <div class="aboutus_desc">
+                          <h3 class="hhfix about_title">Welcome to iTent</h3>
+                          <p class="hhfix about_txt">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
+                          </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          <!-- end about -->
+          
+          
+          <!-- start Gallery -->
+          
+          <div class="galleries">
+             <div class="group group_1">
+                 <div class="gal">
+                      <a href="#" class="gal_img">
+                          <img src="images/c2.jpg" class="img-responsive" />
+                      </a>
+                      <a href="#" class="gal_tit fixanc">Awning</a>
+                  </div>
+                  <div class="gal">
+                      <a href="#" class="gal_img">
+                          <img src="images/c1.jpg" class="img-responsive" />
+                      </a>
+                      <a href="#" class="gal_tit fixanc">Roof Tent</a>
+                  </div>
+             </div>
+             <div class="group group_2">
+                 <div class="gal">
+                      <a href="#" class="gal_img">
+                          <img src="images/c4.jpg" class="img-responsive" />
+                      </a>
+                      <a href="#" class="gal_tit fixanc">Accessories</a>
+                  </div>
+                  <div class="gal">
+                      <a href="#" class="gal_img">
+                          <img src="images/c3.jpg" class="img-responsive" />
+                      </a>
+                      <a href="#" class="gal_tit fixanc">Crossbar</a>
+                  </div>
+             </div>
+             <div class="group group_3">
+                 <div class="gal">
+                      <a href="#" class="gal_img">
+                          <img src="images/c5.jpg" class="img-responsive" />
+                      </a>
+                      <a href="#" class="gal_tit fixanc">Spareparts</a>
+                  </div>
+             </div>
+          </div>
+          <!-- end Gallery -->
+          
+          
+                  <!-- start Customer reviews-->
+        
+        <div class="cust_reviews">
+            <div class="container">
+               <h3 class="rev_title hhfix">Testimonial</h3>
+               <div class="reviews_slider sam_slider">
+                     <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="rev_cont">
+                                   <ul class="list-unstyled list-inline ulfix curev_cont">
+                                        <li class="cust_img">
+                                            <a role="button">
+                                                <img src="images/test.png" class="img-responsive">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a role="button" class="cu_name fixanc">Ibrahim Salah</a>
+                                        </li>
+                                    </ul>   
+                                    <p class="cu_commt hhfix">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="rev_cont">
+                                   <ul class="list-unstyled list-inline ulfix curev_cont">
+                                        <li class="cust_img">
+                                            <a role="button">
+                                                <img src="images/test.png" class="img-responsive">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a role="button" class="cu_name fixanc">Ibrahim Salah</a>
+                                        </li>
+                                    </ul>   
+                                    <p class="cu_commt hhfix">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                    </p>
+                                    
+                                </div>
+                            </div>
+                         </div>
+                   </div>
+                   <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- end Customer reviews-->
+
+       <!-- start footer -->
+       <footer>
+           <!-- start newsletter -->
+            <div class="container">
+                <div class="our_newsletter">
+                    <div class="newsl_cont">
+                        <div class="newsl_title">
+                            <h3 class="newb_tit hhfix">NEWSLETTER</h3>
+                            <h5 class="newsub_tit hhfix">Subscribe to our newsletter and get latest products and offers</h5>
+                        </div>
+                        <div class="form-group mail_cont">
+                            <input type="email" class="form-control ffmail_input" id="exampleInputEmail1" placeholder=" Enter your email address ">
+                            <button class="fm_check">Send</button>
+                        </div>
+                    </div>
+                </div>
+           
+           <!-- end newsletter -->
+           
+               <div class="foot_cont">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="foo_desc lg">
+                                <div class="logo">
+                                    <a href="#"><img class="img-responsive" src="images/foot-logo.png" alt="logo"></a>
+                                </div>
+                                <p class="hhfix foo_txt">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
+                                </p>
+                               <ul class="foo_social list-unstyled list-inline ulfix">
+                                   <li><a href="#" class="fixanc"><i class="fab fa-facebook-f"></i></a></li>
+                                   <li><a href="#" class="fixanc"><i class="fab fa-twitter"></i></a></li>
+                                   <li><a href="#" class="fixanc"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="#" class="fixanc"><i class="fab fa-whatsapp"></i></a></li>
+                                    <li><a href="#" class="fixanc"><i class="fab fa-snapchat-ghost"></i></a></li>
+                               </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="fast_links">
+                                <h5 class="ff_title fsm_title hhfix" data-toggle="collapse" data-target="#id10" aria-expanded="false">Information</h5>
+                                <ul class="list-unstyled collapse ulfix fast_ul" id="id10">
+                                    <li><a class="fixanc" href="#"> About Us </a></li>
+                                    <li><a class="fixanc" href="#">Delivery Information</a></li>
+                                    <li><a class="fixanc" href="#">Privacy Policy</a></li>
+                                    <li><a class="fixanc" href="#">Terms & Conditions</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="fast_links">
+                                <h5 class="ff_title fsm_title hhfix" data-toggle="collapse" data-target="#id12" aria-expanded="false">Customer Service</h5>
+                                <ul class="list-unstyled collapse ulfix fast_ul" id="id12">
+                                    <li><a class="fixanc" href="#">Contact Us</a></li>
+                                    <li><a class="fixanc" href="#">Returns</a></li>
+                                    <li><a class="fixanc" href="#">Site Map</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                         <div class="col-md-2">
+                            <div class="fast_links">
+                                <h5 class="ff_title fsm_title hhfix" data-toggle="collapse" data-target="#id11" aria-expanded="false">Extras</h5>
+                                <ul class="list-unstyled collapse ulfix" id="id11">
+                                    <li><a class="fixanc" href="#">Brands</a></li>
+                                    <li><a class="fixanc" href="#">Gift Certificates</a></li>
+                                    <li><a class="fixanc" href="#">Affiliate</a></li>
+                                    <li><a class="fixanc" href="#">Specials</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="fast_links">
+                                <h5 class="ff_title fsm_title hhfix" data-toggle="collapse" data-target="#id9" aria-expanded="false">My Account</h5>
+                                <ul class="list-unstyled collapse ulfix" id="id9">
+                                    <li><a class="fixanc" href="#">My Account</a></li>
+                                    <li><a class="fixanc" href="#">Order History</a></li>
+                                    <li><a class="fixanc" href="#">Wish List</a></li>
+                                    <li><a class="fixanc" href="#">Newsletter</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                   </div>
+                   <div class="foo_desc sm">
+                       <ul class="foo_social list-unstyled list-inline ulfix">
+                           <li><a href="#" class="fixanc"><i class="fab fa-facebook-f"></i></a></li>
+                           <li><a href="#" class="fixanc"><i class="fab fa-twitter"></i></a></li>
+                           <li><a href="#" class="fixanc"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#" class="fixanc"><i class="fab fa-whatsapp"></i></a></li>
+                            <li><a href="#" class="fixanc"><i class="fab fa-snapchat-ghost"></i></a></li>
+                       </ul>
+                    </div>
+               </div>
+           </div>
+           <div class="fopayco">
+             <div class="container">
+                <div class="fopa_cont">
+                 <p class="hhfix p_right">© iTent Store  - Made with  <i class="fas fa-heart"></i>  by <a href="#"><img src="images/tasawk-c-en.png"></a></p>
+                   <div class="ff_pay">
+                        <img src="images/pay.png" class="img-responsive">
+                    </div>
+                </div>
+             </div>
+           </div>
+        </footer>
+            
+       <!-- end footer -->
+        
+    </body>
+</html>
